@@ -2,7 +2,7 @@
 A simple command-line script for getting definitions of words from Urban Dictionary.
 
 ## Requirements
-- Python 3 (should work in 2.7, but not tested)
+- Python 3.6
 - Requests
 - Click
 
