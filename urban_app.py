@@ -18,7 +18,7 @@ def display_result(results, num_to_display=1):
     :param num_to_display:
     """
 
-    if results['result_type'] == 'no_results':
+    if not results['list']:
         click.secho('Could not find the requested search term.', fg='yellow')
     else:
         for i, result in enumerate(results['list']):
